@@ -1,0 +1,17 @@
+I file .c_e sono i file "causa-effetto" che venivano generati per permettermi di tenere traccia delle azioni definite. Dentro, per ogni parte, ci trovi la lista di tutte le azioni per cui e' definita una reazione non default (anche se di questa si sa solamente l'indice). Per esempio:
+
+2005002 USA il pezzo di infisso CON Mighty_Ricky..5
+
+...che significa che l'azione <2, 005, 002>, dove 2 = usa, 005 = pezzo di infisso, 002 = mighty ricky risultava nell'effetto 5 (che so una sega cosa fosse, se non ricordo male un'animazione di mighty ricky pestato a sangue).
+
+Ci sono alcuni flash del passato, come:
+
+1034000 PRENDI i moduli RAL-MAS...................2
+
+3045000 PARLA A Egr. prof. P......................43
+
+8010000 GUARDA il fissato di Doom.................61
+
+6003000 APRI la porta allarmata...................49
+
+Credo che i dati veri e propri di questa roba fossero nei file "hstrxx.str", mentre la definizione delle "reazioni" andasse nei file "istrxx.ist". I file .tlk contenevano messaggi e dialoghi, i '.mov' i "video" (che erano solo una sequenza di frame, 8192byte l'uno, piu' la durata in millisecondi di ogni frame).
