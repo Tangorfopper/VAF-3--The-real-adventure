@@ -1,0 +1,125 @@
+﻿VAF 3: THE REAL ADVENTURE. User Manual
+
+Indice
+1..............Requisiti hardware
+2..............La storia
+2..............Come giocare
+3..............Controlli del gioco
+3..............Parametri di linea
+4..............Trouble shooting
+4..............Gli autori
+5..............Saluti
+
+
+Requisiti hardware:
+
+Vaf 3 è stato progettato in modo da consentirne l'utilizzo su una vasta gamma di macchine, nel rispetto degli utenti affezionati ai loro vecchi PC. Tuttavia, è stata privilegiata la modularità del codice rispetto all'efficienza, per cui i requisiti hardware sono un po' più elevati di quelli che il programma di per sé necessiterebbe. Per giocare a Vaf 3 avrete bisogno di:
+
+[] Teoricamente, qualsiasi architettura dall'80286 in su dovrebbe consentire di lanciare il gioco. In 		realtà, un 386/33 è caldamente consigliato, altrimenti l'omino sarebbe troppo lento. Per avere 			anche la musica in sottofondo, è probabile che sia necessario almeno un 486/33. Il gioco è 				stato testato su di un 486/50, su cui gira con musica alla velocità prevista.
+
+[] Un mouse, Microsoft compatibile, è necessario per controllare i movimenti dell'omino.
+
+[] 595 Kb di memoria convenzionale per avere il sonoro digitalizzato. 1 Mb di EMS è necessario 			per la musica in background. Senza musica né sonoro, dovrebbe essere possibile giocare con 		circa 400 Kb di memoria convenzionale.
+
+[] MS-DOS 3.3 o superiore. Il gioco gira anche sotto Windows e Windows '95, ma noi vi 									consigliamo di eseguirlo direttamente dal DOS. Per eseguirlo sotto Windows potrebbe essere 		necessario disabilitare la musica. Tipicamente, comunque, l'utente VAF vorrà cancellare i 					suddetti sistemi operativi non appena concluso il gioco.
+
+[] Grazie all'uso della grafica ASCII in alta risoluzione, non avrete bisogno di particolari schede 				grafiche per godervi il gioco. Un monitor a colori è consigliato, ma non necessario.
+
+[] Un PC-SPEAKER è necessario per avere gli effetti sonori digitalizzati.
+
+[] Una scheda sonora Sound Blaster compatibile è opzionale, ma consigliata, in quando vi 							permetterà di ascoltare la colonna sonora in background durante tutto lo svolgimento del gioco.
+
+[] Un Hard Disk con almeno 9 Mega di spazio libero è necessario per giocare. Tenete poi 								presente che ogni salvataggio occupa su disco circa 150 Kb.
+
+[] Per poter visualizzare correttamente i caratteri ANSI e ASCII, sarà necessario avere una tabella 		dei codici impostata su 850, cioè sullo standard multinazionale. Fate riferimento al manuale del 		vostro sistema operativo per avere ulteriori informazioni, e ricordatevi che senza questa tabella 		il gioco potrebbe non funzionare correttamente.
+
+[] Molta pazienza. Questo è un requisito fondamentale. Può darsi che in alcuni punti vi troviate 				bloccati senza sapere come proseguire. Lo svolgimento del gioco è sufficientemente logico da 		permettervi di dedurre la vostra prossima mossa, ma se proprio non avete idea su come 							proseguire... potrete contattare gli autori e chiedere loro qualche indicazione...
+		Ricordate inoltre che il programma presenta qualche piccolo bug, legato soprattutto all'insieme 		programma-librerie musicali. Disabilitare la musica dovrebbe risolvere tutti i problemi, ma è 					comunque una buona prassi quella di salvare frequentemente. Oltretutto, tenete presente che 		potete progredire da ogni punto! Non siamo sufficientemente sadici da avere previsto delle 					situazioni di stallo.
+
+
+La Storia
+In VAF 3, vestirete i panni di uno stralunato ragazzo appena uscito dal Liceo, e desideroso di frequentare l'università. Grazie soprattutto alla grande diffusione di notizie allettanti (ma approssimative) da parte dei media, il nostro eroe sceglie di iscriversi ad una facoltà il cui settore (in rapida espansione) dovrebbe garantirgli un lavoro sicuro: Informatica!
+Purtroppo sono molte le insidie che il nostro eroe ignora, data sia la sua innata ingenuità che la perfida malizia dei suoi colleghi/connazionali/prossimi. In particolare, egli non sa che la facoltà cui sta per iscriversi è in realtà una specie di grande farsa, in cui è passato sotto silenzio il fatto che, mentre a poche decine di metri matematici e fisici si spaccano la testa su complicatissimi ed importantissimi problemi, gli informatici speculano su argomenti altisonanti ma perfettamente inutili, oltre che assolutamente banali.
+Nei suoi panni, voi dovrete cercare di passar sopra queste sostanziali difficoltà e portare il nostro eroe alla sua vera unica meta: la Laurea!
+Saprete aiutarlo?
+
+Come Giocare
+Vaf 3 è dotato di un'amichevole interfaccia grafica che vi consente di controllare gli spostamenti e le azioni del nostro eroe. La parte più in basso dello schermo è occupata dalla lista dei verbi disponibili e dall'inventario. Ecco una spiegazione più dettagliata di ciò che è sullo schermo mentre state giocando:
+
+				[]	La finestra dell'azione occupa la maggior parte dello schermo, ed è dove si svolge 											l'azione animata. In questa finestra potrete vedere il nostro eroe che cammina, parla, 	   							interagisce con oggetti/personaggi. 
+
+				[]	La riga di dialogo si trova al di sotto della finestra dell'azione, e sopra i verbi disponibili e 							gli oggetti. In questa riga potrete vedere comporsi la frase che indica al personaggio 										l'azione da compiere, a seconda degli ordini da voi impartiti attraverso il mouse.
+
+				[]	I verbi disponibili si trovano nella parte inferiore sinistra dello schermo. Per attivarli, 											dovrete cliccarci sopra con il mouse, e selezionare poi l'oggetto cui il verbo fa 															riferimento. Ad esempio, se nella finestra dell'azione c'è una porta che siete intenzionati 							ad aprire, attivate il verbo Apri, e cliccate sulla porta. Nella riga di dialogo vedrete 												apparire la frase "Apri la porta". Suggerimento: usate la riga di dialogo per identificare 								gli oggetti	con cui potete interagire: il loro nome vi apparirà dentro quando vi passate 									sopra con il cursore.
+			
+				[]	L'inventario è situato nella parte inferiore centrale dello schermo, sotto la finestra 												dell'azione. Questo è la lista degli oggetti posseduti dal nostro eroe, e potrete interagirvi 							nello stesso modo in cui interagite con gli oggetti che si trovano nella finestra 															dell'azione. 
+
+
+
+Controlli del Gioco
+Durante il gioco, è attivo l'uso di un insieme di tasti che non ha effetto sullo svolgimento di esso, ma che vi permette di controllarne vari aspetti.
+
+Load/Save: poiché una partita a VAF 3 potrebbe essere molto lunga, dover ogni volta riprendere il gioco dal suo inizio ne renderebbe praticamente impossibile l'avanzamento. Per questo motivo avete a disposizione la possibilità di salvare su disco la partita corrente e di riprenderla quando credete opportuno. Premendo il tasto "S" apparirà nel mezzo della finestra dell'azione una mascherina in cui vi verrà chiesto di inserire il nome del file su cui la partita verrà salvata. Il nome del file è soggetto ai limiti del sistema operativo, quindi inserite un nome di al più 8 caratteri e senza estensione. Premendo il tasto "L", invece, una simile mascherina vi permetterà di inserire il nome del file usato per salvare una vecchia partita, in modo da poterla riprendere.
+
+Velocità del testo: durante lo svolgimento del gioco vi capiterà spesso di parlare con uno dei numerosi personaggi che popolano lo stralunato mondo in cui si svolge l'azione. Premendo i tasti "+" e "-", avrete la possibilità di regolare la velocità alla quale le frasi pronunciate durante i dialoghi spariranno. Premete un tasto diverso da "+" e "-" per uscire dalla mascherina di regolazione della velocità del testo. E' anche possibile far sparire una frase dallo schermo premendo il tasto destro del mouse o un qualunque tasto non associato ad alcuna funzione sulla tastiera.
+
+Velocità dell'omino: il programma regola automaticamente la velocità alla quale si sposta l'omino durante il gioco. Tuttavia, se volete che gli spostamenti avvengano più rapidamente o più lentamente, premendo i tasti "8" e "2" avrete la possibilità di effettuare questa regolazione. Premete un tasto diverso da "8" e "2" per uscire dalla mascherina di regolazione. Attenzione: poiché non sempre l'omino è in grado di evitare gli ostacoli da solo, non è sempre la migliore scelta avere la velocità settata al massimo...
+
+Volume della musica: il gioco è accompagnato da una colonna sonora musicale, il cui volume è regolabile mediante i tasti "/" e "*".  Premete un tasto diverso da "/" e "*" per uscire dalla mascherina di regolazione.
+
+Ricarica della musica: premendo il tasto "R", la musica in sottofondo riprenderà dal suo inizio. Per maggiori dettagli consultate la guida di risoluzione ai problemi.
+
+Per uscire: per uscire dal gioco, è sufficiente premere il tasto "Q". Potete premerlo durante fasi del gioco, purché esse non siano animazioni. Nota: ricordatevi di salvare la partita corrente, prima di uscire al sistema operartivo.
+
+Boss key: poiché il gioco è stato progettato fondamentalmente in ambiente accademico, ed è previsto il suo uso in tale ambiente o in ambienti di lavoro, non poteva mancare un "Boss Key". Tale tasto è il tasto "B", che provoca il messaggio "segmentation fault", finchè non viene premuto un tasto. Il "Boss Key" può anche essere usato come pausa.
+
+Parametri di linea
+Alcuni parametri riguardanti la configurazione del gioco, debbono essere settati passando dei parametri da riga di comando. Tali parametri sono:
+
+nomusic: avvia il gioco senza musica. Per riavere la musica sarà necessario rientrare.
+
+nosound: avvia il gioco senza effetti sonori digitalizzati. Per riaverli sarà necessario rientrare.
+
+Trouble shooting:
+In questa sezione vi verrà suggerito come risolvere eventuali problemi in cui potrete incorrere giocando a VAF 3.
+
+Problema: il computer si blocca quando cambio stanza.
+Soluzione: si tratta purtroppo di un bug irrisolto. Il problema, dato che si presenta con sufficiente rarità, può essere aggirato salvando frequentemente, in modo da essere sicuri di non dover ripercorrere parti del gioco già fatte. Giocando senza musica, ad ogni modo, non dovrebbe mai verificarsi. Per far partire il gioco senza musica, fate riferimento alla sezione Parametri di linea.
+
+Problema: l'omino è troppo lento.
+Soluzione: premendo i tasti 8/2 si può aumentare/diminuire la velocità dell'omino. Tuttavia, se il vostro computer è troppo lento, può darsi che l'omino si stia già muovendo alla sua massima velocità.
+
+Problema: la musica non è pulita, si sente "gracchiare".
+Soluzione: il problema è dovuto all'uso di un programma esterno che monopolizza le interruzioni del timer per gli effetti sonori. Si può facilmente risolvere premendo il tasto "R" quando il problema si presenta: la musica ripartirà dall'inizio senza più disturbi.
+
+Problema: non ho musica!
+Soluzione: per avere la musica, è necessaria una scheda sonora Sound Blaster compatibile e almeno 1 Mbyte di memoria EMS. Gli utenti con scheda Sound Blaster Pro compatibile, avranno la musica stereofonica.
+
+Problema: la musica scompare durante gli effetti sonori.
+Soluzione: non c'è soluzione. Il programma che suona gli effetti sonori non è compatibile con le librerie musicali.
+
+Problema: sullo schermo c'è un oggetto che vorrei raggiungere, ma l'omino non ci arriva.
+Soluzione: non tutti gli oggetti sono raggiungibili. Tuttavia, può darsi che l'omino non riesca a raggiungere da solo qualche oggetto in effetti raggiungibile. In tal caso, guidatelo passo-passo aggirando gli ostacoli.
+
+Problema: sullo schermo vedo dei caratteri che non sembrano coerenti con la schermata.
+Soluzione: poiché VAF 3 usa la grafica ANSI, è necessario uniformare il set di caratteri del sistema operativo a quello richiesto dal programma: il set 850, cioè lo standard multinazionale. Fate riferimento al manuale del vostro sistema operativo per sapere come effettuare eventuali modifiche.
+
+Problema: non riesco a proseguire nel gioco!
+Soluzione: non arrendetevi. Lo svolgimento è abbastanza logico da permettervi di dedurre la vostra prossima mossa, ma se proprio non riuscite a progredire, contattate uno degli autori. Per il loro indirizzo fate riferimento alla sezione conclusiva di questo manuale.
+
+Gli autori
+Gli autori di VAF 3, the REAL adventure, sono Alessandro Tommasi e Filippo Tanganelli. E' possibile contattarli (per qualunque ragione, ad es. indicazioni sullo svolgimento del gioco) via email rispettivamente a 
+Esiste anche una pagina di VAF 3, raggiungibile dalle pagine personali dei due, che sono:
+
+
+Saluti
+La Tommais Software ringrazia tutti i benevolenti giocatori dei suoi giochi.
+
+Manuale: Alessandro Tommasi.
+
+Support our "Comitato di salvaguardia dei Verdoni"!
+
+Nel testo soprascritto, tutti i marchi registrati appartengono ai loro rispettivi proprietari.
+
+
+
