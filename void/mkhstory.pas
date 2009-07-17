@@ -215,7 +215,8 @@ begin
           '-','_': begin
                      if causa_parz<1000000 then
                        begin
-                         causa_parz:=causa_parz*10;
+                         if causa_parz<>0 then causa_parz:=causa_parz*10
+                            else causa_parz:=1;
                          causa_corrente:=
                            causa_corrente-(causa_corrente mod (10*causa_parz));
                        end;
