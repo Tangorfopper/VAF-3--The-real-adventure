@@ -1,5 +1,5 @@
 program creadialogo;
-uses crt,dos,parlar,types;
+uses vaf_unit,crt,dos,parlar,types;
 type frasedialogo= record
                     chiparla:byte;{se e' 0 parlo io}
                                   {altrimenti e' il numero dell'oggetto
@@ -53,6 +53,7 @@ case ok of
           if dic.chiparla=0 then writeln('Cosa dico?')
                             else writeln('Cosa dice?');
           readln(dic.cosadice);
+          cripta(dic.cosadice);
           seek(dialogo,filesize(dialogo));
           write(dialogo,dic);
          end;
@@ -82,17 +83,20 @@ case ok of
           seek(dialogo,parte-1);
           read(dialogo,dic);
           writeln('CHI: ',dic.chiparla);
+          decripta(dic.cosadice);
           writeln('COSA: ',dic.cosadice);
           write('Cambia cosa?(cHi o Cosa)');readln(cosacambia);
           case cosacambia of
           'h','H': begin
                     write('Chi parla? ');
                     readln(dic.chiparla);
+                    cripta(dic.cosadice);
                    end;
           'c','C': begin
                     if dic.chiparla=0 then writeln('Cosa dico?')
                                       else writeln('Cosa dice?');
                     readln(dic.cosadice);
+                    cripta(dic.cosadice);
                     seek(dialogo,parte-1);
                    end;
           end;
