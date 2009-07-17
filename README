@@ -1,0 +1,38 @@
+                        VAF 3: the REAL avdenture.
+                           Last minute change.
+
+
+Distribuiti insieme ai file del programma sono:
+
+  - VAFMAN01.DOC: il manuale ufficiale del gioco in formato
+                  WORD per Windows versione 2.0.
+  - README: questo file.
+
+AVVERTENZA!!!!:
+  Il gioco deve essere scompattato con l'opzione '-d', perch‚ 
+  l'archiviatore ricrei le directory necessarie al programma.
+  Senza questa opzione il programma non girer… correttamente.
+
+Tasti usati durante il gioco:
+
+  Q: Esce.
+  S: Salva una partita.
+  L: Carica una partita salvata.
+  R: Ricarica la musica (da premere in caso di rumori indesiderati).
+  B: Boss key.
+  +: Aumenta la velocita' del testo.
+  -: Diminuisce la velocita' del testo.
+  *: Aumenta il volume della musica.
+  /: Diminuisce il volume della musica.
+  8: Aumenta la velocita' dell'omino (se possibile).
+  2: Diminuisce la velocita' dell'omino.
+
+Ricordate che l'opzione 'nosound' comporta l'avvio del gioco senza effetti
+sonori digitali, e che l'opzione 'nomusic' lancer… il gioco senza musica.
+
+La musica in sottofondo necessita di almeno 1 Megabyte di EMS paginata
+a pagine di almeno 64Kb. Fate riferimento al manuale del vs. sistema 
+operativo per maggiori dettagli in caso di problemi.
+
+La Tommais Software augura a tutti un buon divertimento.
+
