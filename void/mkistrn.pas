@@ -1,6 +1,20 @@
 program mkistrfile;
 uses types,crt,vaf_unit;
 
+{serve per generare le possibili
+"reazioni" (istr sta per 'istruzioni'). Ogni 'istruzione' e' un record
+che codifica tutto quello che puo' succedere: parte un'animazione, un
+dialogo, si acquisisce un oggetto, ci si sposta in un'altra stanza, ecc.
+ecc.
+
+Questo programma si usava piu' o meno a partire dal risultato di
+"mkhstory", che generava il file ".c_e", e che definiva tutte le azioni
+possibili oltre a quelle default, associandole a degli indici di
+"effetti" generati automaticamente. Quindi per ogni azione definita
+c'era un indice di "effetto", relativamente al quale si potevano
+definire fino a 3 possibili "istruzioni" (quale scegliere dipendeva
+dallo stato dei vincoli -- un sistema a regole, diciamo...)}
+
 type reazione_list=^elemento;
      elemento=record
                 e:word;            {effetto}
