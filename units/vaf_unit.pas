@@ -79,7 +79,7 @@ var ind1,ind2:integer;
       then
         for ind1:=y1 to y2 do
           for ind2:=(80*(ind1-1)+x1) to (80*(ind1-1)+x2)
-            do dove[2*ind2-1]:=colore+dove[2*ind2-1] div 16;
+            do dove[2*ind2-1]:=colore+(dove[2*ind2-1] and (15*16));
   end;         {      ^^^^^^^ prima era    ^^^^^^^^ senza il -1}
 
 procedure backcolor(x1,y1,x2,y2,sfondo:byte;var dove:array of byte);
@@ -89,7 +89,7 @@ var ind1,ind2:integer;
       then
         for ind1:=y1 to y2 do
           for ind2:=(80*(ind1-1)+x1) to (80*(ind1-1)+x2)
-            do dove[2*ind2-1]:=sfondo*16+dove[2*ind2-1] mod 16;
+            do dove[2*ind2-1]:=sfondo*16+(dove[2*ind2-1] and 15);
   end;
 
 procedure disegna_maschera(var dove:array of byte);
