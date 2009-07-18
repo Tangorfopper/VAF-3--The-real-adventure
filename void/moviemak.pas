@@ -1,5 +1,6 @@
 {$M 16384 0 200000}
 program moviemaker;
+{programma per la creazione dei "filmati" usati all'interno del gioco}
 uses dos,crt,anim,musnsnd;
 const MAXAZIONI=255;
       STOP=255;
