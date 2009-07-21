@@ -1,0 +1,120 @@
+                                                            .
+                                                            .
+            CORSO DI LAUREA IN INFORMATICA                  .
+                                                            .
+     Prova scitta di ANALISI NUMERICA - Corsi A e B         .
+                                                            .
+                     15/1/1996                              .
+                                                            .
+Esercizio 1) Si consideri l'insieme di numeri di macchina   .
+F(10,3,2,2). Si dica quanti sono i numeri interi apparte-   .
+nenti a tale insieme e si determini il loro massimo.        .
+                                                            .
+Esercizio 2) Sia A î C^nxn tale che A^n-1 diverso da 0.     .
+A^n=0. Si studi la forma canonica di Jordan di A.           .
+                                                            .
+Esercizio 3) Sia A=(aij) î C^nxn tridiagonale, cioŠ tale    .
+che aij=0 per ³i-j³>1. Si studi la struttura delle matrici  .
+Q e R della fattorizzazione QR di A e la complessit… mol-   .
+tiplicativa della risoluzione di un sistema lineare Ax=b    .
+con il metodo di Householder.                               .
+                                                            .
+Esercizio 4) Si studi la convergenza del metodo delle po-   .
+tenze applicato ad una matrice A=uv^h, con u,v î C^n, u,    .
+v<>0.                                                       .
+                                                            .
+Esercizio 5) Si consideri la soluzione à=ã/2 dell'equazione .
+                                                            .
+                         cosýx=0                            .
+                                                            .
+ a) Si studi la convergenza ad à delle successioni ottenute 
+ con i metodi delle corde e delle tangenti per x0=2.        .
+ b) Si stabilisca per entrambe le successioni, in caso di   .
+ convergenza, il numero di iterazioni sufficienti ad ap-    .
+ prossimare à con un errore analitico assoluto non supe-    .
+ riore in modulo a 10^-2.                                   .
+                                                            .
+Esercizio 6) Data una funzione derivabile f(X) e tre punti  .
+distinti x0,x1,x2, si studino l'esistenza e l'unicit… del   .
+polinomio p(X) di grado al pi— due che soddisfa le condi-   .
+zioni p(X0)=f(X0), p'(X1)=f'(X1), p(X2)=f(X2). Nel caso che .
+p(X) esista unico e che sia f(X) î C^3(R), si dimostri che  .
+esiste un punto à per cui vale la relazione                 .
+                                                            .
+          f(X)-p(X)=(X-X0)(X-X2)(X-à)f''($)/3!              .
+                                                            .
+per ogni X, con $ funzione di X, oltre che X0,X1,X2.        .
+                                                            .
+                                                            .
+                                                            .
+                                                            .
+                                                            .
+             CORSO DI LAUREA IN INFORMATICA                 .
+                                                            .
+       Prova scitta di ANALISI NUMERICA - Corsi A e B       .
+                                                            .
+                       29/1/1996                            .
+                                                            .
+Esercizio 1) Si consideri la successione {Xi}iîN cos de-   .
+finita dalla formula ricorrente:                            .
+                                                            .
+                Xi=100/3Xi-1-11xI-2, i>=2,                  .
+                                                            .
+con X0=9, X1=3.                                             .
+                                                            .
+ a) Si determini in forma esplicita il termine generale     .
+ Xi della successione.                                      .
+                                                            .
+ b) Il valore di X5 calcolato con la formula ricorrente     .
+ di F(2,24,m,M) Š 0.106.... Lo si confronti con il valore   .
+ esatto e si giustifichi l'elevato errore commesso stu-     .
+ diando la propagazione degli errori di arrotondamento nel  .
+ calcolo di Xi.                                             .
+                                                            .
+Esercizio 2) Dato aîR si consideri la matrice               .
+                                                            .
+                  Ú                ¿                        .
+                  ³ a 1 1 1  ... 1 ³                        .
+                  ³ 1 a 0 0  ... 0 ³                        .
+                  ³ 1 0 a 0      0 ³                        .
+              M = ³ 1 0 0 a      0 ³                        .
+                  ³ :        .   : ³                        .
+                  ³ :          . : ³                        .
+                  ³ 1 0 0 0  ... a ³                        .
+                  À                Ù                        .
+                                                            .
+Si diano delle condizioni su a affinchŠ esista la fat-      .
+torizzazione LU di M.                                       .
+                                                            .
+Esercizio 3) Si AîR^nxn di rango k<n. Si studi la forma     .
+-struttura del polinomio caratteristico di A, esaminando    .
+anche il caso particolare che A sia simmetrica.             .
+                                                            .
+Esercizio 4) Data PîR^nxn diagonalizzabile e tale che       .
+p(P)<1, si consideri la matrice AîR^2nx2n cos definita:    .
+                                                            .
+                     Ú        ¿                             .
+                A =  ³ P   In ³                             .
+                     ³ On  In ³                             .
+                     À        Ù                             .
+                                                            .
+Si dimostri che esista la matrice B=lim A^k                 .
+                                    k->ì                    .
+                                                            .
+Esercizio 5) Si consideri il metodo iterativo Xi+1=g(X),    .
+dove                                                        .
+                                                            .
+               g(X)= X^3+9X/3X^2+3                          .
+                                                            .
+Si individuino i punti fissi di g(X), si consideri il loro  .
+massimo à e si studi la convergenza dle metodo ad à.        .
+                                                            .
+Esercizio 6) Sia f(X)=e^-x. Sia p(X) il polinomio di grado  .
+al pi— 2 che interpola f(X) nei punti 0, a, 2a, con a>0.    .
+Si dica quanto grande pu• essere scelto a affinchŠ          .
+³f(X)-p(X)³<î per Xî[0,2a].                                 .
+                                                            .
+                                                            .
+                                                            .
+                                                            .
+                                                            .
