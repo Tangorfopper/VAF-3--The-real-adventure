@@ -1,0 +1,52 @@
+Allora, sono 2 giorni che scrivo roba al computer, quini scusate se non ho
+voglia di scrivere le solite stupidaggini.
+
+Il programma:
+per partire, digitare 'VAF e invio'.
+Il programma cerca una scheda sonora, se la trova suona, altrimenti no.
+Volevo fare il contrario, cioä che suonasse se e solo se NON c'era la scheda
+sonora, ma poi le grandi ditte costruttrici di schede sonore si sono opposte.
+Inoltre, per il programma, il predicato 'avere una scheda sonora' ä quasi
+sinonimo di 'avere una variabile di ambiente BLASTER'. Se non ce l'avete,
+allora non avete neanche una scheda sonora ('E comprati una scheda!').
+Se anche avete la scheda, ma non avete XMS (almeno 512k, credo), allora 
+siete fritti: si pianta. Immagino che il programma si potrebbe far funzionare
+anche con 256k di XMS (cioä con 1 mega di RAM in tutto), ma tanto i computer 
+che hanno un mega solo di solito sono lentissimi. 
+Mi pare che il gioco sia lento su tutto quello che non ä un 486, ma puï darsi
+che mi sbagli, perchÇ non ho mai provato. Se lo trovate lento sul vostro 386
+che mi frega, tanto mica lo vendo, e poi il 386 ce l'ha solo Marco.
+Se non avete una scheda, potete cancellare i file .SND, che sono piuttosto
+grossi, e risparmiare spazio. Il gioco dovrebbe funzionare comunque.
+Se invece avete una scheda, ma non volete sentire alcun suono, digitate
+'VAF nosound' e invio, cosç dovrebbe essere disabilitato il sonoro.
+Anche in questo caso potete cancellare i .SND, ma attenzione, perchä se
+avete una scheda sonora, ma avete cancellato i file .SND, e partite con
+'VAF' anzichÇ con 'VAF nosound', il sistema probabilmente si bloccherÖ.
+Ad essere onesti, si pianta proprio.
+Inoltre, fate attenzione alle stampanti: giocando al CDC, unlinkate le 
+stampanti, perchÇ altrimenti rischiate di mandare (grazie a qualcuno dei 
+graziosi codici ascii usati nel gioco) in stampa qualcosa tipo 'sei un
+PIRLAM', e farvi sospendere l'account (in ogni caso ve lo meritate se 
+giocate al CDC). In realtÖ, questo non dovrebbe succedere, ma non si sa mai.
+
+I tasti:
+GIOCATORE 1: destra  : destra;
+             sinistra: sinistra;
+             fuoco   : fuoc...cioä, barra spazio.
+GIOCATORE 2: destra  : c;
+             sinistra: z;
+             fuoco   : CTRL di sinistra.
+Tenendo premuto il fuoco fino ai pallini, si lancia il raggio spettrale (eco).
+
+F12: bosskey;
+P  : pausa;
+Q  : esce dal gioco.
+
+Se non volete perdervi tutti i gustosi intermezzi, evitate di premere tasti
+a raffica...
+
+
+BUON DIVERTIMENTO !
+
+ale.
